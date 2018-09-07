@@ -17,7 +17,7 @@
 		  	<input type="submit" value="Search" />
 		</form>
 		
-		<form action="">
+		<form action="http://www.example.org/search.php">
 			<p> <label>Username:</br>
 				<input type="text" name="Username" size="17" 
 				       maxlength="30" requried = "required" /></label></br>
@@ -31,7 +31,7 @@
 				
 		</form>
 		
-		<form action="">
+		<form action="http://www.example.org/search.php">
 			<p>Please select your favorite genre:
 			<br />
 			<input id="rock" type="radio" name="genre" value="rock" checked="checked" /> 
@@ -40,18 +40,23 @@
 				pop
 			<input id="jazz" type="radio" name="genre" value="jazz" />
 				jazz
+			<input type="submit" value="submit"/>
 			</p>
 		</form>
-					
-		<fieldset>
-			<legend>Contact details</legend>
-			<label>Email:<br />
-			<input type="text" name="email" /></label><br />
-			<label>Mobile:<br />
-			<input type="text" name="mobile" /></label><br />
-			<label>Telephone:<br />
-			<input type="text" name="telephone" /></label>
-		</fieldset>
+
+		<form action="http://www.example.org/search.php">			
+			<fieldset>
+				<legend>Contact details</legend>
+				<label>Email:<br />
+				<input type="text" name="email" /></label><br />
+				<label>Mobile:<br />
+				<input type="text" name="mobile" /></label><br />
+				<label>Telephone:<br />
+				<input type="text" name="telephone" /></label>
+				<input type="submit" value="submit"/>
+			</fieldset>
+			<input type="submit" value="submit"/>
+		</form>
 		
 		<form action="">
 			<p>Please select your favorite music service(s):
@@ -59,6 +64,7 @@
 			<input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
 			<input type="checkbox" name="service" value="lastfm" /> Last.fm
 			<input type="checkbox" name="service" value="spotify" /> Spotify
+			<input type="submit" value="submit"/>
 			</p>
 		</form>
 		
@@ -69,6 +75,7 @@
 				<option value="radio">Radio</option>
 				<option value="computer">Computer</option>
 			</select>
+			<input type="submit" value="submit"/>
 		</form>
 		
 		<form action="">
@@ -80,6 +87,7 @@
 				<option value="keyboard">Keyboard</option>
 				<option value="bass">Bass</option>
 			</select>
+			<input type="submit" value="submit"/>
 		</form>
 		
 	
