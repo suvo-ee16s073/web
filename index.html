@@ -11,13 +11,13 @@
 
 		<h1>Diffrent types of Forms:</h1>
 		<form action="">
-			<p> <label>Username:
+			<p> <label>Username:</br>
 				<input type="text" name="Username" size="17" 
-				       maxlength="30" /></label>
-			</p>
-			<p> <label>Password: 
+				       maxlength="30" requried = "required" /></label></br>
+			    <label>Password:</br> 
 				<input type="password" name="Password" size="17" 
-				       maxlength="30" /></label>
+				       maxlength="30" requried = "required" /></label></br>
+				<input type="submit" value="submit">
 			</p>
 			<p>Say Something about yourself :</p>
 				<textarea name="Comments" rows="5" cols="10">write here</textarea>
@@ -35,6 +35,16 @@
 				<label for="jazz">jazz<\label>
 			</p>
 		</form>
+					
+		<fieldset>
+			<legend>Contact details</legend>
+			<label>Email:<br />
+			<input type="text" name="email" /></label><br />
+			<label>Mobile:<br />
+			<input type="text" name="mobile" /></label><br />
+			<label>Telephone:<br />
+			<input type="text" name="telephone" /></label>
+		</fieldset>
 		
 		<form action="">
 			<p>Please select your favorite music service(s):
